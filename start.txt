@@ -1,0 +1,14 @@
+//This is the configuration file for the start menu. 
+//(S) means startup programs. Adds as an option to the menu. Put name of the file and the filepath.
+//(PM) means power mode. Adds a power mode with GUID. Use powercfg /l command on cmd.(Press Windows+R and paste "cmd /K powercfg /L")
+//(CBG) means Color for background. Values are Color Name= R = G = B.
+
+
+(S)=Retro Arch = D:\\RetroArch\\retroarch.exe
+(S)=Astroneer= D:\\SteamLibrary\\steamapps\\common\\ASTRONEER\\Astro.exe
+(S)=PCSX2= "D:\\PCSX2\\pcsx2-qt.exe"
+
+(PM)=Low Power Mode = 04e61e32-fb41-48da-81b5-039ec3e00c3e
+(PM)=Balanced Power Mode = 381b4222-f694-41f0-9685-ff5bb260df2e
+(PM)=High Power Mode = 6d148cd4-2142-4241-b6b3-691ac24285de
+(CBG)=Gray=100=100=100
